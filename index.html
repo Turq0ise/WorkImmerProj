@@ -7,59 +7,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="JS/global.js" defer></script>
     <title>Point One Integrated Tech., Inc.</title>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <img src="MEDIA/Assets/logo.png" alt="LOGO" id="logo">
-    <div class="navbar">
-        <a href="#blob"><div class="line"></div>HOME</a>
-        <a href="#"><div class="line"></div>SERVICES</a>
-        <a href="#"><div class="line"></div>PRODUCTS</a>
-        <a href="#"><div class="line"></div>PRICING</a>
-        <a href="#"><div class="line"></div>TEAM</a>
-        <a href="#footer"><div class="line"></div>CONTACT</a>
-    </div>
+    <aside sideBar id="side-bar">
+        <img src="MEDIA/Assets/logo.png" alt="LOGO" id="logo">
+        <ul class="navbar" id="nav-bar">
+            <a href="">HOME</a>
+            <a href="">SERVICES</a>
+            <a href="">ABOUT US</a>
+        </ul>
+        <a href="#inquiries" id="inquire">INQUIRE NOW</a>
+    </aside>
 
-    <img src="MEDIA/Assets/blob.png" alt="BLOB" id="blob">
-    <button id="inquire"><a href="#inquiries">INQUIRE NOW</a></button>
-
-    <div class="container">
-        <h1 class="txt">WE ARE BUILDING</h1>
-        <h1 class="txt">SOFTWARE</h1>
-        <h1 class="txt">TO HELP</h1>
-    </div>
-
-    <img src="MEDIA/Assets/Element 1.png" alt="PC" id="pc">
-
-    <!-- About us -->
-    <div class="container2">
-        <p class="abt">About Us</p>
-        <div class="line2"></div>
-        <p class="desc">
-            Established in 2013, Point One Integrated Technologies, Inc., a local software company in the Philippines that provides a wide-range of software and system development services for small, medium and large enterprise introducing a fresh and innovative approach to system automation. We offer affordable yet effective and efficient solutions. Our extensive skills includes all aspects of implementation and operation, from business requirements definition, development of functional specifications, system design, and software customization to fit specific client needs.
-        </p>
-    </div>
-
-    <!-- Inquiries -->
-    <div class="inqcontainer" id="inquiries">
-        <img src="MEDIA/Assets/logo text.png" alt="LOGO" id="text-logo">
-        <h1 id="inqsec">INQUIRE NOW</h1>
-        <div class="input-grp">
-            <input type="text" id="input" placeholder="Get in touch">
-            <input type="submit" id="submit" value="SUBMIT">
+    <div contentSection class="content-section">
+        <div class="hero-section">
+            <h2>
+                <span class="line">WE ARE BUILDING</span>
+                <span class="line">SOFTWARE</span>
+                <span class="line">TO HELP</span>
+            </h2>
+            <div class="image-container">
+                <img src="MEDIA/Assets/Element 1.png" alt="PC" id="pc">
+            </div>
+        </div>
+    
+    
+        <!-- About us -->
+        <div class="container2">
+            <p class="abt">About Us</p>
+            <div class="line2"></div>
+            <p class="desc">
+                Established in 2013, Point One Integrated Technologies, Inc., a local software company in the Philippines that provides a wide-range of software and system development services for small, medium and large enterprise introducing a fresh and innovative approach to system automation. We offer affordable yet effective and efficient solutions. Our extensive skills includes all aspects of implementation and operation, from business requirements definition, development of functional specifications, system design, and software customization to fit specific client needs.
+            </p>
+        </div>
+    
+        <!-- Inquiries -->
+        <div class="inqcontainer" id="inquiries">
+            <img src="MEDIA/Assets/logo text.png" alt="LOGO" id="text-logo">
+            <h1 id="inqsec">INQUIRE NOW</h1>
+            <div class="input-grp">
+                <input type="text" id="input" placeholder="Get in touch">
+                <input type="submit" id="submit" value="SUBMIT">
+            </div>
+        </div>
+    
+        <!-- Footer/Contact -->
+        <div class="footer" id="footer"></div>
+        <div class="container3">
+            <p id="fbold">ADDRESS</p>
+                <p id="freg">UG4 Valley Fair Town Center, Ortigas Extension Ave., Taytay Rizal 1920</p>
+    
+            <p id="fbold2">MAIL</p>
+                <p id="freg2">support@pointonesolutions.com.ph</p>
         </div>
     </div>
-
-    <!-- Footer/Contact -->
-    <div class="footer" id="footer"></div>
-    <div class="container3">
-        <p id="fbold">ADDRESS</p>
-            <p id="freg">UG4 Valley Fair Town Center, Ortigas Extension Ave., Taytay Rizal 1920</p>
-
-        <p id="fbold2">MAIL</p>
-            <p id="freg2">support@pointonesolutions.com.ph</p>
-    </div>
-
 </body>
 </html>
