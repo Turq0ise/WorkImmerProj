@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+#logo {
+    width: 5%;
+    height: 10.5%;
+    position: fixed;
+    top: 5%;
+    left: 3.5%;
+}
+
+.line {
+    border-top: 2px solid #58585B;
+    width: 8vw;
+}
+
+.navbar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 21%;
+    left: 2%;
+}
+
+.navbar a {
+    font-weight: 700;
+    display: block;
+    color: #58585B;
+    text-decoration: none;
+    padding: 10.5%;
+}
+
+.navbar a:hover {
+    color: #2AACF6;
+    .line{border-color: #2AACF6;}
+}
+
+
+#blob {
+    position: absolute;
+    right: 0;
+    max-width: 65%; 
+    height: auto;
+  }
+
+#inquire {
+    font-weight: 700;
+    font-size: 16px;
+    color: #2AACF6;
+    background-color: white;
+
+    width: 11%;
+    height: 5.5%;
+    border-radius: 8px;
+    border: none;
+
+    position: absolute;
+    top: 6%;
+    right: 3.5%;
+}
+
+#inquire:hover {
+    background-color: rgba(255, 255, 255, 0.752);
+    cursor: pointer;
+}
+
+#inquire a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 32%;
+    height: 25%;
+    position: absolute;
+    top: 33%;
+    left: 16%;
+}
+
+.txt {
+    color: #58585B;
+    font-weight: 800;
+    font-size: 250%;
+}
+
+.txt:nth-of-type(2) {
+    color: #2AACF6;
+    font-size: 450%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+#pc {
+    position: absolute;
+    top: 12%;
+    right: 4%;
+    width: 47%;
+}
+
+.container2 {
+    color: #58585B;
+    width: 79%;
+    height: 25%;
+    position: absolute;
+    top: 75%;
+    left: 16%;
+}
+
+.abt {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.desc {
+    font-weight: 600;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.line2 {
+    border-top: 3px solid #58585B;
+    width: 10vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.inqcontainer {
+    background-color: #DC5329;
+    color: white;
+    width: 79%;
+    height: 40%;
+
+    border-radius: 10px;
+
+    position: absolute;
+    top: 100%;
+    left: 16%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inqsec {
+    font-size: 40px;
+    margin-top: -5px;
+}
+
+.input-grp {
+    margin-top: 10px;
+}
+
+#text-logo {
+    width: 12%;
+}
+
+
+.footer{
+    border-top: 3px solid #58585B;
+    width: 100%;
+    position: absolute;
+    top: 150%;
+}
+
+.container3 {
+    color: #58585B;
+    width: 70%;
+    height: 10%;
+    position: absolute;
+    top: 152%;
+    left: 18%;
+}
+
+#fbold, #fbold2 {
+    font-weight: 800;
+    font-size: x-large;
+}
+
+#fbold2 {
+    position: absolute;
+    left: 60%;
+    top: 0;
+}
+
+#freg, #freg2 {
+    font-weight: 500;
+}
+
+#freg2 {
+    position: absolute;
+    left: 60%;
+    top: 28px;
+}
